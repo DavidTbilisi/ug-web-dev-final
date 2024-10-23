@@ -1,0 +1,45 @@
+/*Featured product*/
+
+.featured-product {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0;
+
+    img,
+    div {
+        flex-basis: 50%;
+    }
+
+    div {
+        justify-self: flex-end;
+    }
+}
+
+.color-options {
+    display: flex;
+}
+
+.color {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+    border: 2px solid #5050509e;
+}
+
+.red {
+    background: red;
+}
+
+.blue {
+    background: blue;
+}
+
+.green {
+    background: green;
+}
+
+.yellow {
+    background: yellow;
+}
