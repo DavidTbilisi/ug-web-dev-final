@@ -1,0 +1,1 @@
+![Preview]("./Davit Chincharashvili (2302324).jpg")
