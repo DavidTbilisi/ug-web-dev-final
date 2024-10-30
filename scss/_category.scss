@@ -2,6 +2,46 @@
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
+    .category {
+        flex: 1;
+        color: white;
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+        min-height: 450px;
+        &:nth-child(1) {
+            background-color: #f1c40f;
+            background-image: url(../images/luxury_left.webp);
+        }
+        &:nth-child(2) {
+            background-color: #e74c3c;
+            background-image: url(../images/luxury_right.webp);
+        }
+
+        p {
+            color: white;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+        }
+
+        h3 {
+            font-size: 36px;
+            font-weight: bold;
+            text-shadow: 1px 1px 1px rgb(255, 255, 255);
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: bold;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+            padding-bottom: 5px;
+            border-bottom: 2px solid white;
+            box-shadow: 0 2px 0 rgba(0, 0, 0, 0.5);
+        }
+    }
+    
+   
 }
 
 .category {

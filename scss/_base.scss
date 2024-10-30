@@ -1,0 +1,33 @@
+button {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 17px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    &:hover {
+        background-color: #d00;
+    }
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: darken(gray, 40%);
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: darken(gray, 10%);
+    &.c-white {
+        color: #fff;
+    }
+    &.c-black {
+        color: #000;
+    }
+}
