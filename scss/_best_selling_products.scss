@@ -1,6 +1,6 @@
 /* Best Selling Products */
 .best-selling-products {
-    background-color: #f0f0f0;
+    background-color: darken($color_white, 5%);
     padding: 20px;
 }
 
@@ -24,12 +24,12 @@
 
 .sale-price {
     text-decoration: line-through;
-    color: rgb(164, 164, 164);
+    color: darken($color_gray, 40%);
 
     &::before {
         --size: 30px;
         display: inline-block;
-        background-color: rgba(84, 84, 84, 0.76);
+        background-color: darken($color_red, 20%);
         text-align: center;
         line-height: var(--size);
         width: var(--size);
@@ -37,7 +37,7 @@
         padding: 10px;
         border-radius: 50%;
         content: 'Sale!';
-        color: rgb(255, 255, 255);
+        color: darken($color_white, 20%);
         position: absolute;
         top: 10px;
         left: 10px;
