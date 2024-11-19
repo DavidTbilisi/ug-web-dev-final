@@ -3,17 +3,21 @@
         flex-wrap: wrap;
         flex-direction: column;
         gap: 20px;
+
         .logo {
             margin-bottom: 20px;
         }
+
         ul {
             flex-direction: column;
             gap: 20px;
+
             li {
                 margin: 0;
             }
         }
-        .user-options{
+
+        .user-options {
             flex-direction: column;
         }
 
@@ -29,10 +33,11 @@
         text-align: center;
         padding: 20px;
         gap: 20px;
-        
+
         .product-image {
             width: 100%;
         }
+
         .product-info {
             text-align: center;
             display: flex;
@@ -45,13 +50,23 @@
     .categories {
         flex-direction: column;
         gap: 20px;
+
         .category {
             flex-direction: column;
             gap: 10px;
+
             .category-image {
                 width: 100%;
             }
         }
     }
-    
+
+    footer {
+        flex-direction: column;
+        gap: 20px;
+        a:after {
+            content: '';
+        }
+    }
+
 }
