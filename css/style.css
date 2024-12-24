@@ -241,6 +241,11 @@ nav ul li a:hover {
   border-bottom: 1px solid rgb(25, 25, 25);
 }
 
+.burger-menu {
+  display: none;
+  cursor: pointer;
+}
+
 .logo {
   font-size: 24px;
   font-weight: bold;
@@ -424,14 +429,21 @@ footer a:last-child::after {
     margin-bottom: 20px;
   }
   nav ul {
+    display: none;
     flex-direction: column;
     gap: 20px;
+  }
+  nav ul.open {
+    display: flex;
   }
   nav ul li {
     margin: 0;
   }
   nav .user-options {
     flex-direction: column;
+  }
+  .burger-menu {
+    display: block;
   }
   .product-grid {
     grid-template-columns: repeat(auto-fit, minmax(min-content, 200px));

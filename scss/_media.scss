@@ -9,6 +9,13 @@
         }
 
         ul {
+            display: none;
+
+            &.open {
+                display: flex;
+                ;
+            }
+
             flex-direction: column;
             gap: 20px;
 
@@ -22,6 +29,12 @@
         }
 
     }
+
+    .burger-menu {
+        display: block;
+    }
+
+
 
     .product-grid {
         grid-template-columns: repeat(auto-fit, minmax(min-content, 200px));
@@ -64,6 +77,7 @@
     footer {
         flex-direction: column;
         gap: 20px;
+
         a:after {
             content: '';
         }
